@@ -1,4 +1,4 @@
-  console.log('Noni!!');
+
   window.nn = function(){
   
   this.each=function(_object,_function){
@@ -8,3 +8,5 @@
   }
   return this
   }
+ 
+  window.nnReady='yes';
