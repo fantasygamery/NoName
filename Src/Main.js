@@ -25,7 +25,8 @@ window.clearInterval(INsT);
 }
 INsT=window.setInterval(_int,1000);
 }; 
-  
+  // Get Element By Id
+  this.gid = function(ID){return document.getElementById(ID);}
   // RETURN THIS FUNCTION
   return this;
   };
