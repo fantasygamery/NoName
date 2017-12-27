@@ -1,5 +1,5 @@
 
-  window.nn = function(){
+ nnFunc=function(){
   
   this.each=function(_object,_function){
   for (var x=0;x<_object.length;x++){
@@ -8,5 +8,5 @@
   }
   return this
   }
- 
+ window.nn=nnFunc();
   window.nnReady='yes';
