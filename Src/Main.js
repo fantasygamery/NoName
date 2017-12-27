@@ -16,12 +16,12 @@ if (ID){
 document.getElementById(ID).innerHTML=_towait-waited
 }
     if(waited >= _towait){
- if (func !== null || func  !== undefined ){
+     if (func !== null || func  !== undefined ){
 try {
 func();
-} catch( __ERROR ){console.log(__ERROR.message)}
+} catch( __ERROR ){console.log(__ERROR.message)}}
 window.clearInterval(INsT)
-}
+
 }
 }
 INsT=window.setInterval(_int,1000);
