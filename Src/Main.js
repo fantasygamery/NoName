@@ -25,6 +25,8 @@ window.clearInterval(INsT);
 }
 INsT=window.setInterval(_int,1000);
 }; 
+  //do - function,times,delay
+  this.do = function(_function,_times=1,_delay=1000){var Did=0;_interval=window.setInterval(function(){ _function() ++Did if (Did > _times){return 'Done'}},_delay)}
   // Get Element By Id
   this.gid = function(ID){return document.getElementById(ID);}
   // RETURN THIS FUNCTION
